@@ -5,7 +5,7 @@ Some of the 6th Tuenti's Contest problems solved
 The programming language used for these solutions is **Python**
 
 ------------------
-List of challanges
+List of challenges
 ------------------
 
 - [X] Team Lunch
