@@ -1,5 +1,5 @@
 from unittest import TestCase
-from src.challange1.main import *
+from src.challenge1.main import *
 
 
 class TestChallange1(TestCase):
