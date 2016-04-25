@@ -4,7 +4,7 @@ from tablerow import *
 
 
 def print_output_line(case, result):
-    print("Case #" + str(case) + ": " + str(result) + "\n")
+    print("Case #" + str(case) + ": " + str(result))
 
 
 def count_needed_tables(num_of_diners):
