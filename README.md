@@ -9,5 +9,6 @@ List of challenges
 ------------------
 
 - [X] Team Lunch
+- [X] The Voynich Manuscript
 
 Everybody's invited to contribute!
