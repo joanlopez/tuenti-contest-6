@@ -36,7 +36,7 @@ def main():
         effective_words = get_effective_words(words, start, end)
         most_frequency = get_most_frequency_words(effective_words, 3)
 
-        print_output_line(i, most_frequency)
+        print_output_line(i+1, most_frequency)
 
 
 if __name__ == '__main__':
