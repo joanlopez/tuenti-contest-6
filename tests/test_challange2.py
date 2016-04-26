@@ -1,10 +1,16 @@
 from unittest import TestCase
+from mock import mock_open
+from mock import patch
 from src.challenge2.main import *
+import __builtin__ as builtins
 
 
 class TestChallange2(TestCase):
     def test_that_reading_correctly_words_from_file(self):
-        words = get_words_from_text_file("testCorpus.txt")
+        open_mock = mock_open(read_data="Blue White Aqua Azure Beige Lavender")
+        with patch.object(builtins, "open", open_mock):
+            words = get_words_from_text_file("testCorpus.txt")
+        open_mock.assert_any_call("testCorpus.txt", 'r')
         self.assertEquals(["Blue", "White", "Aqua", "Azure", "Beige", "Lavender"], words)
 
     def test_that_getting_the_right_effective_words(self):
