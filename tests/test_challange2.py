@@ -4,7 +4,7 @@ from src.challenge2.main import *
 
 class TestChallange2(TestCase):
     def test_that_reading_correctly_words_from_file(self):
-        words = get_words_from_text_file("../src/challenge2/testCorpus.txt")
+        words = get_words_from_text_file("testCorpus.txt")
         self.assertEquals(["Blue", "White", "Aqua", "Azure", "Beige", "Lavender"], words)
 
     def test_that_getting_the_right_effective_words(self):
