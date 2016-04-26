@@ -9,6 +9,6 @@ List of challenges
 ------------------
 
 - [X] Team Lunch
-- [X] The Voynich Manuscript
+- [X] The Voynich Manuscript (could be improved with a pre processing)
 
 Everybody's invited to contribute!
